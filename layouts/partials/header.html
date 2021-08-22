@@ -3,6 +3,8 @@
 				<a href="{{ "/" | relURL }}">
 					<h2 class="nav-title">{{ .Site.Title }}</h2>
 				</a>
+				<p class="nav-subtitle">{{ .Site.Params.Subtitle }}</p>
+
 				{{ partial "header-menu.html" . }}
 			</div>
 		</nav>
